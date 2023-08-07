@@ -2,9 +2,5 @@
   "name": "react-exercises-and-studios",
   "lockfileVersion": 3,
   "requires": true,
-  "packages": {
-    "": {
-      "name": "react-exercises-and-studios"
-    }
-  }
+  "packages": {}
 }
