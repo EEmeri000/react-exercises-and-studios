@@ -7,9 +7,14 @@ import BookList from './components/BookList.js';
 function App() {
   return (
     <div className="App">
-      <MovieList />
-      <ChoresList />
-      <BookList />
+     <ChoresList />
+      <div className="similarComponents">
+        <MovieList />
+        <div style={{border: '1px solid black'}}>
+          <BookList />
+        </div>
+        <HobbyLinks />
+      </div>
     </div>
   );
 }
